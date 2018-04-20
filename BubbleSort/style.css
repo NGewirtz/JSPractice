@@ -1,0 +1,14 @@
+.sort-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.bubble {
+  height: 20px;
+  width: 20px;
+  border: 2px solid purple;
+  background-color: orange;
+  margin: 5px;
+  text-align: center;
+}
