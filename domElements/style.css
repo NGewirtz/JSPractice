@@ -1,0 +1,31 @@
+#descend-me {
+  height: 500px;
+  width: 500px;
+  background-color: blue;
+}
+
+section {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: green;
+  position: relative;
+  top: 100px;
+}
+
+li {
+  height: 30px;
+  width: 30px;
+  background-color: brown;
+  list-style: none;
+  text-align: center;
+  color: white;
+}
+
+ul {
+  padding-top: 20px;
+}
+
+.red {
+  background-color: red !important;
+}
