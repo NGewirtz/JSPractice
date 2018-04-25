@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const queue = [el];
     while (queue.length > 0) {
       let current = queue[0];
-      for ( let i = 0; i < current.children.length; i++) {
+      for (let i = 0; i < current.children.length; i++) {
         queue.push(current.children[i]);
       }
       callback(current);
