@@ -25,3 +25,16 @@ function findDup(arr) {
 
 let arr = [3,2,6,1, 4,3, 5, 7];
 console.log(findDup(arr));
+
+
+function firstDuplicate(a) {
+  let set = {};
+  for(let i = 0; i < a.length; i++ ) {
+    if (set[a[i]]) {
+        return a[i];
+    }else {
+      set[a[i]] = true;
+    }
+  }
+  return -1;
+}
