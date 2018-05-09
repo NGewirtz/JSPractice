@@ -15,3 +15,17 @@ function revStr(str) {
   }
   return retStr;
 }
+
+function rev(arr) {
+  for (let i = 0; i < Math.floor(arr.length / 2); i++) {
+    let temp = arr[arr.length - i - 1];
+    arr[arr.length - i - 1] = arr[i];
+    arr[i] = temp;
+  }
+}
+
+let trial1 = [ 1, 2, 3, 4 , 5 ];
+let trial2 = [ 1, 2, 3, 4, 5, 6 ];
+
+
+rev(trial1);
