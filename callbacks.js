@@ -1,13 +1,11 @@
-// names.map(function(name) {
-// 	return `Hello ${name}`;
-// });
-
 function adder(num1, num2) {
   return num1 + num2;
 }
 
 let notFunctionVariable = 7;
+
 console.log(adder);
+console.log(notFunctionVariable);
 // adder IS a function. What is the difference between adder and
 // notFunctionVariable? What can we do to adder?
 // When we define a function we can use it AS IF it were any other
@@ -17,7 +15,7 @@ function iWantAFunctionAsAnArgument(thisIsThatFunctionThatIWant) {
   thisIsThatFunctionThatIWant();
 }
 
-//iWantAFunctionAsAnArgument(trustIExist);
+iWantAFunctionAsAnArgument(trustIExist);
 
 //How else can I reproduce this same functionality
 //if a defined function does not exist?
@@ -53,7 +51,7 @@ let mapped = myMap(arr, function(el) {
   return el * 3;
 });
 
-//console.log(mapped);
+console.log(mapped);
 
 
 
