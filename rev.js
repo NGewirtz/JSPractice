@@ -28,4 +28,5 @@ let trial1 = [ 1, 2, 3, 4 , 5 ];
 let trial2 = [ 1, 2, 3, 4, 5, 6 ];
 
 
-rev(trial1);
+console.log(rev(trial1));
+console.log(rev(trial2));
