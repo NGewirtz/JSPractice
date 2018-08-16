@@ -8,8 +8,7 @@ class Sudoku
     boxes = []
     groups.each do |group|
       box = []
-
-      9.times do |x| #0,1,2
+      9.times do |x|
         group.each do |y|
           box << @board[x][y]
         end
