@@ -3,9 +3,9 @@ function findMaxProfit(prices) {
   let maxProfit = 0;
   prices.slice(1).forEach(price => {
     if(price < minBuy) {
-        minBuy = price;
+      minBuy = price;
     }else if(price - minBuy > maxProfit) {
-        maxProfit = price - minBuy;
+      maxProfit = price - minBuy;
     }
   });
   return maxProfit;
