@@ -37,7 +37,6 @@ def map(&prc)
 end
 
 class Array
-
   def my_map(&prc)
     arr = []
     length.times do |idx|
@@ -45,7 +44,6 @@ class Array
     end
     arr
   end
-
 end
 
 
