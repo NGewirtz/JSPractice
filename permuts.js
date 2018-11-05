@@ -1,5 +1,4 @@
 function permutations(nums) {
-
   if (nums.length <= 1) {
     return [nums];
   }
