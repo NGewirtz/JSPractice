@@ -9,7 +9,7 @@ function almostIncreasingSequence(sequence) {
     firstDown = sequence[0];
   }
   sequence.slice(toSlice).forEach(el => {
-    if ( el > currEl) {
+    if (el > currEl) {
       currEl = el;
     }else if (firstDown) {
       ans = false;
