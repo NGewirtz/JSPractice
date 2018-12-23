@@ -1,3 +1,4 @@
+//Project Euler #12
 function divTrigNum() {
   let factors = [];
   let n = 0;
