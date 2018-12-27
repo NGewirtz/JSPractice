@@ -10,7 +10,7 @@ function primesUpToX(x) {
       }
     }
   }
-  return arr.filter( el => el);
+  return arr.filter(el => el);
 }
 
 console.log(primesUpToX(300));
