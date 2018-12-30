@@ -14,7 +14,6 @@ function maxUniArr(arr) {
   return arr[midIdx];
 }
 
-
-
 let test = [2,3,4,5,7,8,7,6,5,4,3,2,1];
 console.log(maxUniArr(test));
+console.log(test);
